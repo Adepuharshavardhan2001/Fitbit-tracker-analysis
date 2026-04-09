@@ -180,22 +180,11 @@ Sample Visualizations
 
 Circadian Activity Pattern
 
-Average Steps
-   600│                    ╱‾‾╲
-   500│                  ╱    ╲
-   400│                ╱      ╲___
-   300│              ╱
-   200│            ╱
-   100│    _______╱
-     0└────────────────────────────────→ Hour
-       0   4   8   12  16  20  24
-Correlation Heatmap
+<img width="284" height="158" alt="image" src="https://github.com/user-attachments/assets/3cedabce-2d19-440b-815b-14045f0ec11b" />
 
-              Steps  Sleep  Calories  Sedentary
-Steps          1.00  -0.11    0.59     -0.45
-Sleep         -0.11   1.00   -0.08      0.21
-Calories       0.59  -0.08    1.00     -0.62
-Sedentary     -0.45   0.21   -0.62      1.00
+Correlation Heatmap
+<img width="266" height="93" alt="image" src="https://github.com/user-attachments/assets/15246528-7a5f-48cd-ad4c-5a12881cec88" />
+
 
  # Business Recommendations
  
@@ -222,11 +211,12 @@ Collect qualitative data (mood, stress) for sleep prediction
 
 Author
 A.Harshavardhan
+
 Data Science Portfolio Project
 
-adepuharshavardhan2001.com
-LinkedIn
-GitHub
+gmail : adepuharshavardhan2001.com
+LinkedIn : https://www.linkedin.com/in/adepu-harshavardhan-ds/
+GitHub : https://github.com/Adepuharshavardhan2001
 
  Key Achievements 
  Processed 2.4M+ heart rate records across 18 data sources
