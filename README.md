@@ -52,17 +52,17 @@ Scikit-learn         → ML models & clustering
 Project Workflow
 
 Raw CSVs (18 files)
-       ↓
+       ->
 Data Cleaning & Standardization
-       ↓
+       ->
 MySQL Database (10+ tables)
-       ↓
+       ->
 Feature Engineering (12 behavioral metrics)
-       ↓
+       ->
 EDA & Visualization
-       ↓
+       ->
 ML Models (Regression + Clustering)
-       ↓
+       ->
 Actionable Insights
 
 Feature Engineering
