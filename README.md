@@ -1,8 +1,8 @@
- **Fitbit User Activity & Health Analytics**
+ # Fitbit User Activity & Health Analytics
  
 End-to-end data science project analyzing 33 Fitbit users over 31 days to uncover activity patterns, predict calorie burn, and segment users by lifestyle.
 
- Problem Statement
+# Problem Statement
  
 Fitness trackers generate massive amounts of data, but raw numbers don't drive behavior change. How can we transform wearable data into actionable health insights?
 
@@ -28,7 +28,7 @@ Records	2.4M+ heart rate + 1.3M minute-level records
 
 Files	18 CSV files (daily, hourly, minute granularity)
 
-Data Types:
+# Data Types:
 
 Daily: steps, calories, intensity minutes, sleep
 
@@ -36,7 +36,7 @@ Hourly: step counts, calories, intensity
 
 Minute-level: METs, heart rate (5-second intervals), sleep stages
 
-Tech Stack
+# Tech Stack
 
 
 Python 3.12          → Core language
@@ -49,7 +49,7 @@ Matplotlib/Seaborn   → Visualization
 
 Scikit-learn         → ML models & clustering
 
-Project Workflow
+ # Project Workflow
 
 Raw CSVs (18 files)
        ->
@@ -93,7 +93,7 @@ calories_per_step = calories / total_steps
 
 calories_per_active_minute = calories / active_minutes
 
-Key Findings
+# Key Findings
 
 1. Average User Profile
    
@@ -116,7 +116,7 @@ Lowest activity:   2:00 AM – 4:00 AM
 Most consistent:   Morning walkers (6-8 AM)
 
 3. Activity vs Sleep Paradox
-4. 
+ 
 Activity Level	Next-Day Sleep
 
 Low (<5k steps)	454 min
@@ -127,7 +127,7 @@ High (>10k steps)	401 min
 
 Insight: Higher activity doesn't guarantee better sleep. Sleep quality depends on factors beyond step count.
 
- Machine Learning Results
+ # Machine Learning Results
  
 Task 1: Calories Burned Prediction
 
@@ -141,7 +141,7 @@ Gradient Boosting	0.91	225	152
 
 Best Model: Gradient Boosting (after hyperparameter tuning)
 
-Top 3 Features:
+# Top 3 Features:
 
 Evening activity ratio (6-11 PM)
 
@@ -203,7 +203,7 @@ Sleep         -0.11   1.00   -0.08      0.21
 Calories       0.59  -0.08    1.00     -0.62
 Sedentary     -0.45   0.21   -0.62      1.00
 
- Business Recommendations
+ # Business Recommendations
  
 User Type	Recommendation
 
