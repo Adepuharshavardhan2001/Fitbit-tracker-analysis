@@ -174,14 +174,8 @@ Cluster	Size	Characteristics	Avg Steps	Avg Sleep
 PCA Visualization:
 
 
-Component 2
-    ↑
-    |      ●●● (Active)
-    |    ●●●
-    |  ●
-    |            ■ (Sedentary)
-    |                ▲ (High Sleepers)
-    └──────────────────────────→ Component 1
+<img width="245" height="130" alt="image" src="https://github.com/user-attachments/assets/2531c922-293a-48df-905d-aa4ab033aa65" />
+
 Sample Visualizations
 
 Circadian Activity Pattern
