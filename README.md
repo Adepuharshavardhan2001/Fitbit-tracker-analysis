@@ -1,4 +1,4 @@
- ##Fitbit User Activity & Health Analytics
+ #Fitbit User Activity & Health Analytics
  
 End-to-end data science project analyzing 33 Fitbit users over 31 days to uncover activity patterns, predict calorie burn, and segment users by lifestyle.
 
